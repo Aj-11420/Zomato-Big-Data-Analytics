@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+.env
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Generated files
+web_data/
+models/
+visualizations/
+*.log
+
+# Hadoop/Spark temporary files
+spark-warehouse/
+metastore_db/
+derby.log/
+
+# Large datasets
+*.csv
+*.csv.zip
+*.parquet
+
+# OS
+.DS_Store
